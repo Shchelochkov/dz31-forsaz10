@@ -1,0 +1,89 @@
+body{
+    background-image: url(fors.jpg);
+    color: white;
+}
+.container{
+    height: 600px;
+}
+
+.container img{
+    height: 100px;
+}
+.mashina{
+    display: flex;
+    margin: 20px;
+}
+#sled{
+    margin-top: 70px;
+    height: 10px;
+    background-color: khaki;
+    box-shadow: 0px 0px 30px 10px white;
+}
+
+#d1{
+    height: 50px;
+    width: 50px;
+    background-color: khaki;
+    border: 2px solid;
+}
+#d2{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border: 2px solid;
+}
+#d3{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 2px solid;
+}
+#d4{
+    height: 50px;
+    width: 50px;
+    background-color: rebeccapurple;
+    border: 2px solid;
+}
+.tsveta{
+    padding-top: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.skor{
+    display: flex;
+    width: 300px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.a1{
+    display: flex;
+}
+
+#low{
+    height: 50px;
+    width: 100px;
+    background-color: royalblue;
+    border: 2px solid;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+#fast{
+    height: 50px;
+    width: 100px;
+    background-color: royalblue;
+    border: 2px solid;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+#oblast{
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    background-color: lightslategrey;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
